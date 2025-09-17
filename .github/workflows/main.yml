@@ -136,7 +136,7 @@ jobs:
               ports:
                 - port: 8080
                   targetPort: 8080
-              type: LoadBalancer
+              type: ClusterIP
             EOF
 
             # 이전 버전 디플로이먼트 스케일 0으로 변경
