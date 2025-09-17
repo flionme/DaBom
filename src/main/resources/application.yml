@@ -1,6 +1,8 @@
 spring:
   application:
     name: dabom
+  server:
+    address: 0.0.0.0
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
