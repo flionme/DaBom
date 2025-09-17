@@ -111,7 +111,7 @@ jobs:
                         periodSeconds: 10
                       readinessProbe:
                         httpGet:
-                          path: /test
+                          path: /api/health/test
                           port: 8080
                         initialDelaySeconds: 20
                         periodSeconds: 10
